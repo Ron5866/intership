@@ -22,14 +22,17 @@ clat-mentor-recommender/
 ├── recommendation_model.pkl      # Pickled data + features generated in Google Colab
 ├── generate_model.ipynb          # Jupyter notebook to create and save the .pkl file
 └── README.md                     # Project overview and setup instructions
-⚙️ Setup Instructions
-1. Clone the Repository
+
+
+## ⚙️ Setup Instructions
+# 1. Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/your-username/clat-mentor-recommender.git
 cd clat-mentor-recommender
-2. (Optional) Create a Virtual Environment
+
+# 2. (Optional) Create a Virtual Environment
 bash
 Copy
 Edit
@@ -37,7 +40,8 @@ python -m venv venv
 .\venv\Scripts\activate          # For Windows
 # OR
 source venv/bin/activate        # For Mac/Linux
-3. Install Required Packages
+
+#3. Install Required Packages
 bash
 Copy
 Edit
@@ -46,7 +50,7 @@ pip install streamlit pandas scikit-learn
 4. Make Sure .pkl File Is Present
 Ensure that recommendation_model.pkl (generated via the notebook) is in the same directory as streamlit_app.py.
 
-🚀 Running the App
+## 🚀 Running the App
 bash
 Copy
 Edit
@@ -54,7 +58,7 @@ streamlit run streamlit_app.py
 Then open your browser and navigate to:
 http://localhost:8501
 
-🧪 Example Use Case
+## 🧪 Example Use Case
 Select an aspirant ID from the dropdown.
 
 View aspirant profile (subjects, college, level, learning style).
