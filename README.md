@@ -23,6 +23,7 @@ clat-mentor-recommender/
 ├── generate_model.ipynb          # Jupyter notebook to create and save the .pkl file
 └── README.md                     # Project overview and setup instructions
 
+---
 
 ## ⚙️ Setup Instructions
 # 1. Clone the Repository
