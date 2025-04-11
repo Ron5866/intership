@@ -22,25 +22,32 @@ This project recommends suitable mentors to CLAT aspirants based on their subjec
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
+```bash
 git clone https://github.com/your-username/clat-mentor-recommender.git
 cd clat-mentor-recommender
+```
 
 ### 2. (Optional) Create a Virtual Environment
+```bash
 python -m venv venv
+````
 
 # Activate the virtual environment:
 
 # On Windows:
+```bash
 .\venv\Scripts\activate
-
+```
 # On Mac/Linux:
+```bash
 source venv/bin/activate
-
+```
 
 ### 3.Install Required Packages
+```bash
 python -m pip install --upgrade pip
 pip install streamlit pandas scikit-learn
-
+```
 
 ### 4. Make Sure .pkl File Is Present
 Ensure that recommendation_model.pkl (generated via the notebook) is in the same directory as streamlit_app.py.
@@ -48,8 +55,9 @@ Ensure that recommendation_model.pkl (generated via the notebook) is in the same
 ## 🚀 Running the App
 streamlit run streamlit_app.py
 Then open your browser and navigate to:
+```bash
 http://localhost:8501
-
+````
 ## 🧪 Example Use Case
 
 Select an Aspirant ID from the dropdown.
